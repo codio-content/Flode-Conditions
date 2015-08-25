@@ -13,8 +13,10 @@
    "path": [],
    "type": "markdown",
    "content-file": ".guides/content/Decisions-67ac.md",
-   "chapter": false,
-   "reset": []
+   "chapter": true,
+   "reset": [
+    "1-decisions"
+   ]
   },
   {
    "id": "b041c558-c4d-8d61-4910-ebc540bf4cef",
@@ -25,7 +27,7 @@
      "action": "close"
     },
     {
-     "path": "example1.flode",
+     "path": "1-decisions/example1.flode",
      "panel": 0,
      "action": "open"
     }
@@ -38,6 +40,48 @@
    "reset": []
   },
   {
+   "id": "8ed1c415-2650-8c52-c1c6-8daeaa136d24",
+   "title": "Equals condition",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "1-decisions/example-eq.flode",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Equals-condition-8ed1.md",
+   "chapter": false,
+   "reset": []
+  },
+  {
+   "id": "c8939c92-69ea-a99f-7975-5cf0b08ab0dd",
+   "title": "Not equals condition",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "1-decisions/example-neq.flode",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Not-equals-condition-c893.md",
+   "chapter": false,
+   "reset": []
+  },
+  {
    "id": "6a6845a1-e74-100-71fa-55b29dd7b3f5",
    "title": "Another example",
    "files": [
@@ -46,7 +90,7 @@
      "action": "close"
     },
     {
-     "path": "example2.flode",
+     "path": "1-decisions/example2.flode",
      "panel": 0,
      "action": "open"
     }
@@ -59,6 +103,32 @@
    "reset": []
   },
   {
+   "id": "d72ac6b-d32c-c852-b954-d1344f5447a6",
+   "title": "Swapping true/false lines",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Swapping-true-false-lines-d72a.md",
+   "chapter": false,
+   "reset": []
+  },
+  {
+   "id": "61c51dd-9ca4-3cfd-8dce-534b733d4920",
+   "title": "Challenges",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Challenges-61c5.md",
+   "chapter": true,
+   "reset": []
+  },
+  {
    "id": "dd94d5df-1cc7-259-6029-8843f93e3220",
    "title": "1 or 0",
    "files": [
@@ -67,7 +137,7 @@
      "action": "close"
     },
     {
-     "path": "1-0.flode",
+     "path": "1-decisions-ch/1-0.flode",
      "panel": 0,
      "action": "open"
     }
@@ -88,7 +158,7 @@
      "action": "close"
     },
     {
-     "path": "true-false.flode",
+     "path": "1-decisions-ch/true-false.flode",
      "panel": 0,
      "action": "open"
     }
@@ -125,7 +195,7 @@
      "action": "close"
     },
     {
-     "path": "big-small.flode",
+     "path": "1-decisions-ch/big-small.flode",
      "panel": 0,
      "action": "open"
     }
@@ -146,7 +216,7 @@
      "action": "close"
     },
     {
-     "path": "category.flode",
+     "path": "1-decisions-ch/category.flode",
      "panel": 0,
      "action": "open"
     }
@@ -159,15 +229,33 @@
    "reset": []
   },
   {
+   "id": "fb8dd4f0-6454-4ead-37f0-bec5e6098259",
+   "title": "Logical Operators",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Logical-Operators-fb8d.md",
+   "chapter": true,
+   "reset": [
+    "2-logical"
+   ]
+  },
+  {
    "id": "3e187094-e8ad-674e-f787-626d5cef63c6",
-   "title": "Boolean logic : AND",
+   "title": "AND operator",
    "files": [
     {
      "path": "#tabs",
      "action": "close"
     },
     {
-     "path": "example3.flode",
+     "path": "2-logical/example3.flode",
      "panel": 0,
      "action": "open"
     }
@@ -175,18 +263,55 @@
    "layout": "",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Boolean-logic---AND-3e18.md",
+   "content-file": ".guides/content/AND-operator-3e18.md",
    "chapter": false,
    "reset": []
   },
   {
    "id": "d8b2f500-819d-e2dd-c9e-de4edcfc1970",
-   "title": "Boolean Logic : OR",
+   "title": "OR operator",
    "files": [],
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Boolean-Logic---OR-d8b2.md",
+   "content-file": ".guides/content/OR-operator-d8b2.md",
    "chapter": false,
+   "reset": []
+  },
+  {
+   "id": "3bfa3ad3-92a-7c3b-85df-a1ff7a66a865",
+   "title": "Compounded logical operators",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "2-logical/compound.flode",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Compounded-logical-operators-3bfa.md",
+   "chapter": false,
+   "reset": []
+  },
+  {
+   "id": "a881e556-3d4f-310a-df2a-6d89c443c4ec",
+   "title": "Challenges",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Challenges-a881.md",
+   "chapter": true,
    "reset": []
   },
   {
@@ -198,7 +323,7 @@
      "action": "close"
     },
     {
-     "path": "fast-cars1.flode",
+     "path": "2-logical-ch/fast-cars1.flode",
      "panel": 0,
      "action": "open"
     }
@@ -219,7 +344,7 @@
      "action": "close"
     },
     {
-     "path": "fast-cars2.flode",
+     "path": "2-logical-ch/fast-cars2.flode",
      "panel": 0,
      "action": "open"
     }
@@ -233,14 +358,14 @@
   },
   {
    "id": "f2e9206e-4618-b73c-3710-3b497e848507",
-   "title": "Nice colors",
+   "title": "Colors & Cars",
    "files": [
     {
      "path": "#tabs",
      "action": "close"
     },
     {
-     "path": "color-car.flode",
+     "path": "2-logical-ch/color-car.flode",
      "panel": 0,
      "action": "open"
     }
@@ -248,24 +373,37 @@
    "layout": "",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Nice-colors-f2e9.md",
+   "content-file": ".guides/content/Colors---Cars-f2e9.md",
    "chapter": false,
    "reset": []
   },
   {
-   "id": "e6c0dc5d-5d71-492e-1f79-b02076688124",
-   "title": "Boolean expressions",
+   "id": "cf15d72c-b5e0-a172-bd05-c2902de02bc7",
+   "title": "True or False : Boolean",
    "files": [
     {
      "path": "#tabs",
      "action": "close"
     },
     {
-     "path": "example4.flode",
+     "path": "3-boolean/example4.flode",
      "panel": 0,
      "action": "open"
     }
    ],
+   "layout": "",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/True-or-False---Boolean-cf15.md",
+   "chapter": true,
+   "reset": [
+    "3-boolean"
+   ]
+  },
+  {
+   "id": "e6c0dc5d-5d71-492e-1f79-b02076688124",
+   "title": "Boolean expressions",
+   "files": [],
    "layout": "",
    "path": [],
    "type": "markdown",
@@ -285,15 +423,15 @@
    "reset": []
   },
   {
-   "id": "d752f1b4-4e94-7e17-8d80-efb0448d4487",
-   "title": "Simple boolean",
+   "id": "aaab3b1b-f68e-d546-be8-c85d893c96e7",
+   "title": "Tip",
    "files": [
     {
      "path": "#tabs",
      "action": "close"
     },
     {
-     "path": "simple.flode",
+     "path": "3-boolean/tip.flode",
      "panel": 0,
      "action": "open"
     }
@@ -301,7 +439,44 @@
    "layout": "",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Simple-boolean-d752.md",
+   "content-file": ".guides/content/Tip-aaab.md",
+   "chapter": false,
+   "reset": []
+  },
+  {
+   "id": "8bf6887d-fa37-b32e-d69a-8377422c9b13",
+   "title": "Challenges",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Challenges-8bf6.md",
+   "chapter": true,
+   "reset": []
+  },
+  {
+   "id": "d752f1b4-4e94-7e17-8d80-efb0448d4487",
+   "title": "Simple boolean return",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "3-boolean-ch/simple.flode",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Simple-boolean-return-d752.md",
    "chapter": false,
    "reset": []
   },
@@ -314,7 +489,7 @@
      "action": "close"
     },
     {
-     "path": "bool-input.flode",
+     "path": "3-boolean-ch/bool-input.flode",
      "panel": 0,
      "action": "open"
     }

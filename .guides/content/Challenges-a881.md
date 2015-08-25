@@ -1,0 +1,1 @@
+This chapter contains some challenges on the use of logical operators.

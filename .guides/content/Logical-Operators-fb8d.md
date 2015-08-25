@@ -1,0 +1,6 @@
+Logical operators cover things like **AND** and **OR** as well as **NOT**.
+
+A typical example of this is ...
+
+> If age is greater than 20 **and** eyeColor is blue then ...
+

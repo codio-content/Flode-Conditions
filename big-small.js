@@ -1,21 +1,24 @@
 
-// First test below
-inp0 = 20
+var testing = require('/home/codio/workspace/.guides/test-fw/testing')
 
-// check
-if (out0 === 'Small') {
-  // Now check above
-  inp0 = 120
-  if (out0 == 'Big') {
-    console.log('Well done!!')
-    process.exit(0)
-  } 
-  else {
-    console.log('It was correct for a number below 100 but not above. Try again!')
-    process.exit(1)    
-  }
+var out = testing.RunGraphWithInputs('1-decisions-ch/big-small.flode', [100]);
+testing.RunGraphWithInputs('1-decisions-ch/big-small.flode', [101]);
+
+// console.log(out)
+
+if(out.length == 0) {
+  console.log("Your program isn't outputting anything.")
+  process.exit(1)
+}
+
+var small = out.length == 2 && out[0].trim().toLowerCase() == 'small';
+var big = out.length == 2 && out[1].trim().toLowerCase() == 'big';
+
+if (small && big) {
+  console.log('Well done!')
+  process.exit(0)
 }
 else {
-  console.log('You returned the wrong result for a number below 100. Try again!')
+  console.log('Not quite right, make sure you are handling both scenarios.')
   process.exit(1)
 }

@@ -1,4 +1,4 @@
-Boolean variables are the third variable type we are introducing you to after numbers and string.
+Boolean variables are the third variable type we are introducing you to after numbers and strings.
 
 A boolean variable can only have 2 values : `true` and `false`. 
 
@@ -21,6 +21,8 @@ isCold = true
 
 ## Not
 Now look at the second decision. The expression `!hasJumper` can be read as '**not** has a jumper. 
+
+Note the `!` character before `hasJumper`. This character reads 'not'.
 
 We could also have written it like this
 
