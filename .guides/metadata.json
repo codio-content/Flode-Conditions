@@ -1,7 +1,7 @@
 {
  "sections": [
   {
-   "id": "67acc349-fbe3-8343-fe16-559069c7f50c",
+   "id": "3cc0c89d-322c-ce19-728b-726d1859ebb9",
    "title": "Decisions",
    "files": [
     {
@@ -9,14 +9,56 @@
      "action": "close"
     }
    ],
-   "layout": "2-panels-tree",
+   "layout": "2-panels",
    "path": [],
    "type": "markdown",
-   "content-file": ".guides/content/Decisions-67ac.md",
+   "content-file": ".guides/content/Decisions-3cc0.md",
    "chapter": true,
    "reset": [
     "1-decisions"
    ]
+  },
+  {
+   "id": "d8d171a9-4844-c47d-af97-f2f0336e701a",
+   "title": "Preparation video",
+   "files": [],
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Preparation-video-d8d1.md",
+   "chapter": false,
+   "reset": []
+  },
+  {
+   "id": "67acc349-fbe3-8343-fe16-559069c7f50c",
+   "title": "Decisions overview",
+   "files": [],
+   "layout": "",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Decisions-overview-67ac.md",
+   "chapter": false,
+   "reset": []
+  },
+  {
+   "id": "28d992-35f9-4726-52d-9ae9478aa3ea",
+   "title": "Experiments",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    },
+    {
+     "path": "experiment.flode",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
+   "layout": "",
+   "path": [],
+   "type": "markdown",
+   "content-file": ".guides/content/Experiments-28d9.md",
+   "chapter": false,
+   "reset": []
   },
   {
    "id": "b041c558-c4d-8d61-4910-ebc540bf4cef",

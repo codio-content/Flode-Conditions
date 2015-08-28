@@ -4,7 +4,7 @@ var testing = require('/home/codio/workspace/.guides/test-fw/testing')
 var out = testing.RunGraphWithInputs('3-boolean-ch/simple.flode', [99]);
 testing.RunGraphWithInputs('3-boolean-ch/simple.flode', [100]);
 
-console.log(out)
+// console.log(out)
 
 if(out.length == 0) {
   console.log("Your program isn't outputting anything.")

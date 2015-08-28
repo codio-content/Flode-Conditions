@@ -14,12 +14,12 @@ if(out.length == 0) {
 }
 
 if(out.length == 4) {
-  var naMin = out[0].trim().toLowerCase() == 'dry';
-  var naMax = out[1].trim().toLowerCase() == 'warm and rainy';
-  var pMin = out[2].trim().toLowerCase() == 'dry';
-  var pMax = out[3].trim().toLowerCase() == 'cold and rainy';
+  var one = out[0].trim().toLowerCase() == 'warm and rainy';
+  var two = out[1].trim().toLowerCase() == 'cold and dry';
+  var three = out[2].trim().toLowerCase() == 'cold and dry';
+  var four = out[3].trim().toLowerCase() == 'cold and rainy';
 
-  if (naMin && naMax && pMin && pMax && mMin && mMax) {
+  if (one && two && three && four) {
     console.log('Well done!')
     process.exit(0)
   }  

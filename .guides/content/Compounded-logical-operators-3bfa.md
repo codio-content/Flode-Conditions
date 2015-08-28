@@ -1,6 +1,3 @@
-
-[IS COMPOUND CONDITION FIXED?]
-
 You can build very complex conditions using logical operators. 
 
 However, when your conditions get complex, you should use parentheses (brackets) to ensure the logic is evaluated exactly as you intend.
