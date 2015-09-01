@@ -2,5 +2,5 @@
 
 |||guidance
 ### Solution
-![](solutions/color-car.png.png)
+![](solutions/color-car.png)
 |||

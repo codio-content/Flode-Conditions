@@ -6,6 +6,6 @@ If the instruction for the challenge was
 
 > We will input two boolean values a) a boolean indicating whether a car is moving fast and b) a boolean indicating whether the traffic is heavy.
 
-Rather than working directly with `input0` and `input1` we assign them have created 2 variables `fast` and `heavyTraffic`.
+Rather than working directly with `input0` and `input1` we assign them having created 2 variables `fast` and `heavyTraffic`.
 
-You can see the reading the condition `fast and !heavyTrafic` is easier to read than `input0 and !input1`.
+You can see that reading the condition `fast and !heavyTrafic` is easier to read than `input0 and !input1`.

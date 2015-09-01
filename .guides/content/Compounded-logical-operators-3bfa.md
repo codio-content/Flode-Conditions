@@ -13,7 +13,7 @@ This condition could be written like this
 temp>10 and temp<20 or temp>60 and temp<80
 ```
 
-However, it is very clear how this gets evaluated. To make it clear to Flode (and programming languages demand the same clarity) it should be written like this.
+It is very clear how this gets evaluated but to make it clear to Flode (and programming languages demand the same clarity) it should be written like this.
 
 ```javascript
 (temp>10 and temp<20) or (temp>60 and temp<80)

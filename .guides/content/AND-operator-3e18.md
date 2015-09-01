@@ -5,7 +5,7 @@ Consider the following example.
 This is written in Flode as 
 
 ```javascript
-number>=100 and number<100
+number>=10 and number<100
 ```
 
 To make it more readable, feel free to add spaces like this

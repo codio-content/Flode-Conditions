@@ -1,4 +1,4 @@
-Consider the following example that checks to see if a number outside the range -100 to +100
+Consider the following example that checks to see if a number is outside the range -100 to +100
 
 > If the number is less than -100 **or** greater than 100
 
