@@ -16,7 +16,8 @@
    "chapter": true,
    "reset": [
     "1-decisions"
-   ]
+   ],
+   "teacherOnly": false
   },
   {
    "id": "d8d171a9-4844-c47d-af97-f2f0336e701a",
@@ -26,7 +27,8 @@
    "type": "markdown",
    "content-file": ".guides/content/Preparation-video-d8d1.md",
    "chapter": false,
-   "reset": []
+   "reset": [],
+   "teacherOnly": false
   },
   {
    "id": "67acc349-fbe3-8343-fe16-559069c7f50c",
@@ -37,7 +39,8 @@
    "type": "markdown",
    "content-file": ".guides/content/Decisions-overview-67ac.md",
    "chapter": false,
-   "reset": []
+   "reset": [],
+   "teacherOnly": false
   },
   {
    "id": "28d992-35f9-4726-52d-9ae9478aa3ea",
@@ -58,7 +61,8 @@
    "type": "markdown",
    "content-file": ".guides/content/Experiments-28d9.md",
    "chapter": false,
-   "reset": []
+   "reset": [],
+   "teacherOnly": false
   },
   {
    "id": "b041c558-c4d-8d61-4910-ebc540bf4cef",
@@ -79,7 +83,8 @@
    "type": "markdown",
    "content-file": ".guides/content/Decisions-in-Flode-b041.md",
    "chapter": false,
-   "reset": []
+   "reset": [],
+   "teacherOnly": false
   },
   {
    "id": "8ed1c415-2650-8c52-c1c6-8daeaa136d24",
@@ -100,7 +105,8 @@
    "type": "markdown",
    "content-file": ".guides/content/Equals-condition-8ed1.md",
    "chapter": false,
-   "reset": []
+   "reset": [],
+   "teacherOnly": false
   },
   {
    "id": "c8939c92-69ea-a99f-7975-5cf0b08ab0dd",
@@ -121,7 +127,8 @@
    "type": "markdown",
    "content-file": ".guides/content/Not-equals-condition-c893.md",
    "chapter": false,
-   "reset": []
+   "reset": [],
+   "teacherOnly": false
   },
   {
    "id": "6a6845a1-e74-100-71fa-55b29dd7b3f5",
@@ -142,7 +149,8 @@
    "type": "markdown",
    "content-file": ".guides/content/Another-example-6a68.md",
    "chapter": false,
-   "reset": []
+   "reset": [],
+   "teacherOnly": false
   },
   {
    "id": "d72ac6b-d32c-c852-b954-d1344f5447a6",
@@ -152,7 +160,8 @@
    "type": "markdown",
    "content-file": ".guides/content/Swapping-true-false-lines-d72a.md",
    "chapter": false,
-   "reset": []
+   "reset": [],
+   "teacherOnly": false
   },
   {
    "id": "61c51dd-9ca4-3cfd-8dce-534b733d4920",
@@ -168,7 +177,8 @@
    "type": "markdown",
    "content-file": ".guides/content/Challenges-61c5.md",
    "chapter": true,
-   "reset": []
+   "reset": [],
+   "teacherOnly": false
   },
   {
    "id": "7f98a2f4-dff2-92d0-32fc-f8acefee70ad",
@@ -178,7 +188,8 @@
    "type": "markdown",
    "content-file": ".guides/content/Create-your-own-inputs-7f98.md",
    "chapter": false,
-   "reset": []
+   "reset": [],
+   "teacherOnly": false
   },
   {
    "id": "dd94d5df-1cc7-259-6029-8843f93e3220",
@@ -199,7 +210,8 @@
    "type": "markdown",
    "content-file": ".guides/content/1-or-0-dd94.md",
    "chapter": false,
-   "reset": []
+   "reset": [],
+   "teacherOnly": false
   },
   {
    "id": "5ba9b412-64f3-3f4-869e-cfa1475cbd8",
@@ -220,7 +232,8 @@
    "type": "markdown",
    "content-file": ".guides/content/True-or-False-5ba9.md",
    "chapter": false,
-   "reset": []
+   "reset": [],
+   "teacherOnly": false
   },
   {
    "id": "b126994f-aaae-14f1-1483-a80dc93a8127",
@@ -236,7 +249,8 @@
    "type": "markdown",
    "content-file": ".guides/content/Greater-than--less-than-b126.md",
    "chapter": false,
-   "reset": []
+   "reset": [],
+   "teacherOnly": false
   },
   {
    "id": "25583636-197a-5d56-a5f6-ad613356c2a7",
@@ -257,7 +271,8 @@
    "type": "markdown",
    "content-file": ".guides/content/Big-or-small-2558.md",
    "chapter": false,
-   "reset": []
+   "reset": [],
+   "teacherOnly": false
   },
   {
    "id": "94a669d9-fa23-2a28-5201-8e07791d61",
@@ -278,7 +293,8 @@
    "type": "markdown",
    "content-file": ".guides/content/Category-94a6.md",
    "chapter": false,
-   "reset": []
+   "reset": [],
+   "teacherOnly": false
   },
   {
    "id": "fb8dd4f0-6454-4ead-37f0-bec5e6098259",
@@ -296,7 +312,8 @@
    "chapter": true,
    "reset": [
     "2-logical"
-   ]
+   ],
+   "teacherOnly": false
   },
   {
    "id": "3e187094-e8ad-674e-f787-626d5cef63c6",
@@ -317,7 +334,8 @@
    "type": "markdown",
    "content-file": ".guides/content/AND-operator-3e18.md",
    "chapter": false,
-   "reset": []
+   "reset": [],
+   "teacherOnly": false
   },
   {
    "id": "d8b2f500-819d-e2dd-c9e-de4edcfc1970",
@@ -327,7 +345,8 @@
    "type": "markdown",
    "content-file": ".guides/content/OR-operator-d8b2.md",
    "chapter": false,
-   "reset": []
+   "reset": [],
+   "teacherOnly": false
   },
   {
    "id": "3bfa3ad3-92a-7c3b-85df-a1ff7a66a865",
@@ -348,7 +367,8 @@
    "type": "markdown",
    "content-file": ".guides/content/Compounded-logical-operators-3bfa.md",
    "chapter": false,
-   "reset": []
+   "reset": [],
+   "teacherOnly": false
   },
   {
    "id": "a881e556-3d4f-310a-df2a-6d89c443c4ec",
@@ -364,7 +384,8 @@
    "type": "markdown",
    "content-file": ".guides/content/Challenges-a881.md",
    "chapter": true,
-   "reset": []
+   "reset": [],
+   "teacherOnly": false
   },
   {
    "id": "fa8d7113-d18-4f6c-ac02-8ab547184279",
@@ -385,7 +406,8 @@
    "type": "markdown",
    "content-file": ".guides/content/Fast-cars-1-fa8d.md",
    "chapter": false,
-   "reset": []
+   "reset": [],
+   "teacherOnly": false
   },
   {
    "id": "4d98dc8-b149-2728-f3f6-2279291c5b84",
@@ -406,7 +428,8 @@
    "type": "markdown",
    "content-file": ".guides/content/Fast-cars-2-4d98.md",
    "chapter": false,
-   "reset": []
+   "reset": [],
+   "teacherOnly": false
   },
   {
    "id": "f2e9206e-4618-b73c-3710-3b497e848507",
@@ -427,7 +450,8 @@
    "type": "markdown",
    "content-file": ".guides/content/Colors---Cars-f2e9.md",
    "chapter": false,
-   "reset": []
+   "reset": [],
+   "teacherOnly": false
   },
   {
    "id": "cf15d72c-b5e0-a172-bd05-c2902de02bc7",
@@ -450,7 +474,8 @@
    "chapter": true,
    "reset": [
     "3-boolean"
-   ]
+   ],
+   "teacherOnly": false
   },
   {
    "id": "e6c0dc5d-5d71-492e-1f79-b02076688124",
@@ -461,7 +486,8 @@
    "type": "markdown",
    "content-file": ".guides/content/Boolean-expressions-e6c0.md",
    "chapter": false,
-   "reset": []
+   "reset": [],
+   "teacherOnly": false
   },
   {
    "id": "acf428ac-b17d-7ce6-bfa8-6c8c20e2af9",
@@ -472,7 +498,8 @@
    "type": "markdown",
    "content-file": ".guides/content/Boolean-variables-acf4.md",
    "chapter": false,
-   "reset": []
+   "reset": [],
+   "teacherOnly": false
   },
   {
    "id": "aaab3b1b-f68e-d546-be8-c85d893c96e7",
@@ -493,7 +520,8 @@
    "type": "markdown",
    "content-file": ".guides/content/Tip-aaab.md",
    "chapter": false,
-   "reset": []
+   "reset": [],
+   "teacherOnly": false
   },
   {
    "id": "8bf6887d-fa37-b32e-d69a-8377422c9b13",
@@ -509,7 +537,8 @@
    "type": "markdown",
    "content-file": ".guides/content/Challenges-8bf6.md",
    "chapter": true,
-   "reset": []
+   "reset": [],
+   "teacherOnly": false
   },
   {
    "id": "d752f1b4-4e94-7e17-8d80-efb0448d4487",
@@ -530,7 +559,8 @@
    "type": "markdown",
    "content-file": ".guides/content/Simple-boolean-return-d752.md",
    "chapter": false,
-   "reset": []
+   "reset": [],
+   "teacherOnly": false
   },
   {
    "id": "d9e28e78-4381-6ea0-5b52-c7aba699a2ac",
@@ -551,7 +581,8 @@
    "type": "markdown",
    "content-file": ".guides/content/Boolean-input-d9e2.md",
    "chapter": false,
-   "reset": []
+   "reset": [],
+   "teacherOnly": false
   },
   {
    "id": "f91a33be-742c-124-756e-8994b5e632ad",
@@ -561,7 +592,27 @@
    "type": "markdown",
    "content-file": ".guides/content/All-done--f91a.md",
    "chapter": false,
-   "reset": []
+   "reset": [],
+   "teacherOnly": false
+  },
+  {
+   "id": "56c0667f-6ae1-88bc-47bb-40294bfcf10",
+   "title": "Teacher complete solutions",
+   "files": [
+    {
+     "path": "#tabs",
+     "action": "close"
+    }
+   ],
+   "layout": "1-panel-tree",
+   "path": [
+    "solutions"
+   ],
+   "type": "markdown",
+   "content-file": ".guides/content/Teacher-complete-solutions-56c0.md",
+   "chapter": true,
+   "reset": [],
+   "teacherOnly": true
   }
  ],
  "theme": "light",
