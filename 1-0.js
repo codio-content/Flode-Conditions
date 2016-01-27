@@ -13,9 +13,6 @@ if(out.length == 0) {
   process.exit(1)
 }
 
-var on = out.length == 2 && out[0].trim().toLowerCase() == 'on';
-var off = out.length == 2 && out[1].trim().toLowerCase() == 'off';
-
 if (on && off) {
   console.log('Well done!')
   process.exit(0)
