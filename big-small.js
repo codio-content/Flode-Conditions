@@ -2,7 +2,9 @@
 var testing = require('/home/codio/workspace/.guides/test-fw/testing')
 
 var out = testing.RunGraphWithInputs('1-decisions-ch/big-small.flode', [100]);
-testing.RunGraphWithInputs('1-decisions-ch/big-small.flode', [101]);
+var small = out.length == 1 && out[0].trim().toLowerCase() == 'small';
+out = testing.RunGraphWithInputs('1-decisions-ch/big-small.flode', [101]);
+var big = out.length == 1 && out[0].trim().toLowerCase() == 'big';
 
 // console.log(out)
 
@@ -10,9 +12,6 @@ if(out.length == 0) {
   console.log("Your program isn't outputting anything.")
   process.exit(1)
 }
-
-var small = out.length == 2 && out[0].trim().toLowerCase() == 'small';
-var big = out.length == 2 && out[1].trim().toLowerCase() == 'big';
 
 if (small && big) {
   console.log('Well done!')

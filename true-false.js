@@ -2,7 +2,9 @@
 var testing = require('/home/codio/workspace/.guides/test-fw/testing')
 
 var out = testing.RunGraphWithInputs('1-decisions-ch/true-false.flode', ['true']);
-testing.RunGraphWithInputs('1-decisions-ch/true-false.flode', ['false']);
+var on = out.length == 1 && out[0] == '1';
+out = testing.RunGraphWithInputs('1-decisions-ch/true-false.flode', ['false']);
+var off = out.length == 1 && out[0] == '0';
 
 // console.log(out)
 
@@ -10,9 +12,6 @@ if(out.length == 0) {
   console.log("Your program isn't outputting anything.")
   process.exit(1)
 }
-
-var on = out.length == 2 && out[0] == '1';
-var off = out.length == 2 && out[1] == '0';
 
 if (on && off) {
   console.log('Well done!')
