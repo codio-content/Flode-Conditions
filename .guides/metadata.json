@@ -480,7 +480,13 @@
   {
    "id": "e6c0dc5d-5d71-492e-1f79-b02076688124",
    "title": "Boolean expressions",
-   "files": [],
+   "files": [
+    {
+     "path": "3-boolean/big-small.flode",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
    "layout": "",
    "path": [],
    "type": "markdown",
@@ -492,7 +498,13 @@
   {
    "id": "acf428ac-b17d-7ce6-bfa8-6c8c20e2af9",
    "title": "Boolean variables",
-   "files": [],
+   "files": [
+    {
+     "path": "3-boolean/example4.flode",
+     "panel": 0,
+     "action": "open"
+    }
+   ],
    "layout": "",
    "path": [],
    "type": "markdown",

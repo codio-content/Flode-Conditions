@@ -1,0 +1,141 @@
+[
+ {
+  "type": "test",
+  "taskId": "test-1262823474",
+  "source": {
+   "showName": false,
+   "answers": [],
+   "tokens": {
+    "blank": [],
+    "text": []
+   },
+   "name": "Colors and cars",
+   "instructions": "Alice's favorite color is 'blue' and her favorite car is a 'Mini'. Jennifer's favorite color is 'green' and her favorite car is an 'Audi'.\n\nWe are going to pass in 2 inputs. The first is a color and the second is a make of car. Both are strings.\n\n- If both the color and the make of car are perfect for Alice or for Jennifer, output 'One perfect match'\n- If the color is right but the car is not then output 'Alice/Jennifer color ok`.\n- Otherwise, output 'Life sucks'.\n",
+   "command": "node color-car.js",
+   "points": 1
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-1614922647",
+  "source": {
+   "showName": false,
+   "answers": [],
+   "tokens": {
+    "blank": [],
+    "text": []
+   },
+   "name": "Category",
+   "instructions": "You are provided with a person’s age and you need to determine which school level the person falls within. \n\n- If 6 to 11 output ‘primary school’ \n- If 12 to 18 output ‘secondary school’\n- If neither, then output ‘NA’\n\nRemember `<=` and `>=`? You should use them.",
+   "command": "node category.js",
+   "points": 1
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-1913751125",
+  "source": {
+   "showName": false,
+   "answers": [],
+   "tokens": {
+    "blank": [],
+    "text": []
+   },
+   "name": "Simple boolean return",
+   "instructions": "We provide you with a number, N.\n\nIf N is greater than or equal to 100, return a boolean true, otherwise false.",
+   "command": "node simple.js",
+   "points": 1
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-3320071375",
+  "source": {
+   "showName": false,
+   "answers": [],
+   "tokens": {
+    "blank": [],
+    "text": []
+   },
+   "name": "Fast cars 1",
+   "instructions": "You are provided with 2 input values which determine the speed of 2 cars. \n\nIf either car is travelling at more than 70 then output ‘one car too fast'. Otherwise output 'ok'.",
+   "command": "node fast-cars1.js",
+   "points": 1
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-3912616604",
+  "source": {
+   "showName": false,
+   "answers": [],
+   "tokens": {
+    "blank": [],
+    "text": []
+   },
+   "name": "True or false string input",
+   "instructions": "This challenge is the other way round. \n\nWe provide you with a string input that is either 'true' or 'false'. You should output a number 1 if 'true' or 0 if 'false'.",
+   "command": "node true-false.js",
+   "points": 1
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-4061475283",
+  "source": {
+   "name": "Boolean input",
+   "showName": false,
+   "instructions": "We pass in 2 boolean inputs, cold and rainy.\n\nYou should output a single string 'cold|warm and rainy|dry' based on these inputs.\n\nIn programming, the `|` character is used to denote possible values. So 'cold|warm' means you should use one of the two words, depending on the input boolean value.\n\nfor example true = 'warm and rainy' \n",
+   "command": "node bool-input.js",
+   "points": 1
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-4097641837",
+  "source": {
+   "showName": false,
+   "answers": [],
+   "tokens": {
+    "blank": [],
+    "text": []
+   },
+   "name": "1 or 0",
+   "instructions": "You are provided with a number input which will be either 1 or 0. \n\nIf the number is 1, output ‘On’, if 0 output ‘Off’.",
+   "command": "node 1-0.js",
+   "points": 1
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-544146678",
+  "source": {
+   "showName": false,
+   "answers": [],
+   "tokens": {
+    "blank": [],
+    "text": []
+   },
+   "name": "Big or small",
+   "instructions": "We are providing you with a number that is between 0 and 200. \n\nIf the number is greater than 100, output 'Big', otherwise output 'Small'. The text you return is case sensitive!",
+   "command": "node big-small.js",
+   "points": 1
+  }
+ },
+ {
+  "type": "test",
+  "taskId": "test-589836837",
+  "source": {
+   "showName": false,
+   "answers": [],
+   "tokens": {
+    "blank": [],
+    "text": []
+   },
+   "name": "Fast cars 2",
+   "instructions": "You are provided with 2 input values which determine the speed of 2 cars. \n\n- If both cars are travelling at more than 70 then output ‘2 fast cars'\n- If one car only is moving at more than 70, output '1 fast car'\n- Otherwise output 'no fast cars'",
+   "command": "node fast-cars2.js",
+   "points": 1
+  }
+ }
+]

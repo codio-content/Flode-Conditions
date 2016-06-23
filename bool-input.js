@@ -22,5 +22,5 @@ if (one && two && three && four) {
   process.exit(0)
 }
 
-console.log('Not quite right, make sure you are handling all four scenarious.')
+console.log('Not quite right, make sure you are handling all four scenarios.')
 process.exit(1)

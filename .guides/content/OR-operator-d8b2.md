@@ -1,6 +1,6 @@
-Consider the following example that checks to see if a number is outside the range -100 to +100
+Consider the following example that checks to see if a number is outside the range 0 to +1000
 
-> If the number is less than -100 **or** greater than 100
+> If the number is less than 0 **or** greater than 1000
 
 This is written in Flode as 
 
