@@ -3,14 +3,11 @@
   "type": "test",
   "taskId": "test-1262823474",
   "source": {
-   "showName": false,
-   "answers": [],
-   "tokens": {
-    "blank": [],
-    "text": []
-   },
    "name": "Colors and cars",
-   "instructions": "Alice's favorite color is 'blue' and her favorite car is a 'Mini'. Jennifer's favorite color is 'green' and her favorite car is an 'Audi'.\n\nWe are going to pass in 2 inputs. The first is a color and the second is a make of car. Both are strings.\n\n- If both the color and the make of car are perfect for Alice or for Jennifer, output 'One perfect match'\n- If the color is right but the car is not then output 'Alice/Jennifer color ok`.\n- Otherwise, output 'Life sucks'.\n",
+   "showName": false,
+   "arePartialPointsAllowed": false,
+   "oneTimeTest": false,
+   "instructions": "Alice's favorite color is 'blue' and her favorite car is a 'Mini'. Jennifer's favorite color is 'green' and her favorite car is an 'Audi'.\n\nWe are going to pass in 2 inputs. The first is a color and the second is a make of car. Both are strings.\n\n- If both the color and the make of car are perfect for Alice or for Jennifer, output 'One perfect match'\n- If the color is right but the car is not then output 'Alice/Jennifer color ok`.\n- If the car is right but the color is not then output 'Alice/Jennifer car ok`.\n- Otherwise, output 'Life sucks'.\n",
    "command": "node color-car.js",
    "points": 1
   }
